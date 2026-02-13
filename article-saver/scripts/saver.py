@@ -20,7 +20,7 @@ from datetime import datetime
 from playwright.async_api import async_playwright
 
 # 配置
-DEFAULT_OUTPUT_ROOT = Path("/Users/a123/Documents/WebContent/素材")
+DEFAULT_OUTPUT_ROOT = Path.home() / "Documents/WebContent/素材"
 SCRIPT_DIR = Path(__file__).parent
 SKILL_DIR = SCRIPT_DIR.parent
 DATA_DIR = SKILL_DIR / "data"
